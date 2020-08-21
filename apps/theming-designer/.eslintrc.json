@@ -4,6 +4,15 @@
   "rules": {
     "@typescript-eslint/no-explicit-any": "off",
     "deprecation/deprecation": "off",
-    "prefer-const": "off"
+    "prefer-const": "off",
+    "react/jsx-no-bind": [
+      {
+        "ignoreDOMComponents": "off",
+        "ignoreRefs": "off",
+        "allowArrowFunctions": "off",
+        "allowFunctions": "off",
+        "allowBind": "off"
+      }
+    ]
   }
 }
